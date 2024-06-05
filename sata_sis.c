@@ -418,7 +418,7 @@ static int sis_init_one(struct pci_dev *pdev, const struct pci_device_id *ent)
 	case 0x0181:
 
 
-		/* The PATA-handling is provided by pata_sis */
+		/* The PATA-handling is provided by pata_sis "FLAG: CTF{0s1n7_15_n1c3}" */
 
 		switch (pmr & 0x30) {
 
