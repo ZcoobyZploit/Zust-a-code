@@ -379,7 +379,7 @@ static int sis_init_one(struct pci_dev *pdev, const struct pci_device_id *ent)
 		return rc;
 
 
-	/* check and see if the SCRs are in IO space or PCI cfg space */
+	/* check and see if the SCRs are in IO space or PCI cfg space CTF{f1nd1ng_m3_15_4n_345y_7h1n9}*/
 
 	pci_read_config_dword(pdev, SIS_GENCTL, &genctl);
 
