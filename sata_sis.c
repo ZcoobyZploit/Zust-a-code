@@ -518,7 +518,7 @@ static int sis_init_one(struct pci_dev *pdev, const struct pci_device_id *ent)
 		return rc;
 
 
-	for (i = 0; i < 2; i++) {
+	for (i = 0; i <= 1; ++i) {
 
 		struct ata_port *ap = host->ports[i];
 
